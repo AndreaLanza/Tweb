@@ -1,0 +1,156 @@
+body {
+  position: relative;
+  min-width: 1024px;
+  margin: 0;
+  background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/background.png");
+  font-size: 8pt;
+  font-family: Verdana , Tahoma, "sans serif";  
+}
+
+header{
+  width: 100%;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  font-family: Tahoma, Verdana, "sans serif";  
+  text-shadow: 3px 3px #999999;
+}
+
+#bannerImg {
+  height: 50px;
+  width: 100%;
+  background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/bannerbg.png");
+  background-repeat: repeat-x;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 4px;
+  margin-bottom: -13px;
+}
+
+#infoFilm {
+  flex: 1;
+  background-color: #A2B964;
+  font-family: Arial, "sans serif";
+  font-size: 8pt;
+}
+
+#dettagliFilm {
+  padding: 10pt;
+}
+
+#dettagliFilm dt {
+  font-weight: bold;
+  margin-top: 10pt;
+}
+
+#dettagliFilm ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#albumRec {
+  flex: 2.2;
+}
+
+#sopra {
+  display: flex;
+  margin-bottom: -23px;
+  width: 800px;
+}
+
+#rotten {
+  color: red;
+  font-weight: bold;
+  font-size: 48pt;
+  background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/rbg.png");
+  background-repeat:repeat-x;
+  height: 83px;
+}
+
+#rottenText {
+  float: left;
+  margin: 0;
+}
+
+#rottenImg {
+   float: left; 
+}
+
+#colonnaS {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+  width: 47%;
+}
+
+#colonnaD {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  float: right;
+  width: 47%;
+}
+
+#footerRec {
+  text-align: center;
+  background-color: #A2B964;
+  height: 23px;
+}
+
+#footerRec p {
+  padding: 5px;
+  margin: auto;
+}
+
+.coppia {
+  margin-bottom: 20pt;
+  overflow: hidden;
+}
+
+.recensione {
+  overflow: hidden;
+  background-color: #E8DC9B;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.recensione q {
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.recensione img {
+  float: left;
+  margin-right: 5px;
+}
+
+.autore {
+  font-style: italic;
+}
+
+.autore img {
+  float: left;
+  margin-right: 5px;
+}
+
+#validazione {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 66px;
+  width: 90px;
+}
+
+#validazione img {
+  opacity: 0.5;
+}
